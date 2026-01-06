@@ -9,7 +9,8 @@ def speech_txt():
     try:
         text = r.recognize_google(audio)
         print("You said: " + text)
-    except :
+    except:
         print("Sorry, I could not understand the audio.")
+
 
 speech_txt()
